@@ -8,5 +8,6 @@ download 7za "standalone" from here https://www.7-zip.org/download.html, extract
 7za.exe
 7zxa.dll
 
+This is intended for QBCore but it should work with any fx server recipe, it will however always spin up and start a database for you. 
 
 
