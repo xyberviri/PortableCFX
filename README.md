@@ -8,6 +8,6 @@ download 7za "standalone" from here https://www.7-zip.org/download.html, extract
 7za.exe
 7zxa.dll
 
-This is intended for QBCore but it should work with any fx server recipe. 
+This is intended for QBCore and VORP but it should work with any fx server recipe. 
 
 
