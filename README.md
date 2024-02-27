@@ -8,6 +8,8 @@ download 7za "7-Zip Extra: standalone console version, 7z DLL, Plugin for Far Ma
 7za.exe
 7zxa.dll
 
-When using a custom recipe make sure to use the raw path for example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox.yaml`
+When using a custom recipe make sure to use the raw path. 
+
+Example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox.yaml`
 
 
