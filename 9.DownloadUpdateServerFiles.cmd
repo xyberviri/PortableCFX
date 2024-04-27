@@ -13,7 +13,7 @@ if exist server rmdir /s /q server
 echo  Downloading FiveM FX Server
 Powershell -command "$baseurl = 'https://runtime.fivem.net/artifacts/fivem/build_server_windows/master';$link = (Invoke-WebRequest -Uri $baseurl | Select-Object -ExpandProperty links )[3];$download = $baseurl+($link.href).TrimStart('.');$wc = New-Object net.webclient;$wc.Downloadfile($download, 'server.7z')"
 echo  Installing FiveM FX Server
-..\7za.exe x server.7z -oserver
+..\7zr.exe x server.7z -oserver
 del /s /q server.7z
 popd
 

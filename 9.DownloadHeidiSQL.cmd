@@ -7,7 +7,7 @@ if not exist %HEIDISQL_FILENAME% (
     Powershell -command "$wc = New-Object net.webclient;$wc.Downloadfile('%HEIDISQL_URL%', '%HEIDISQL_FILENAME%.zip')"
     REM Powershell -command "$ProgressPreference = 'SilentlyContinue';wget '%HEIDISQL_URL%' -outfile '%HEIDISQL_FILENAME%.zip'"
     echo Installing HeidiSql..
-    7za.exe x %HEIDISQL_FILENAME%.zip -o%HEIDISQL_FILENAME%
+    7zr.exe x %HEIDISQL_FILENAME%.zip -o%HEIDISQL_FILENAME%
     del /s /q %HEIDISQL_FILENAME%.zip
 )
 

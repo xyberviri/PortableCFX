@@ -7,7 +7,7 @@ if not exist %MARIADB_FILENAME% (
     REM Powershell -command "$ProgressPreference = 'SilentlyContinue';wget '%MARIADB_URL%' -outfile 'mariadb-10.4.30-winx64.zip'"
     Powershell -command "$wc = New-Object net.webclient;$wc.Downloadfile('%MARIADB_URL%', '%MARIADB_FILENAME%.zip')"    
     echo  Installing %MARIADB_FILENAME%
-    7za.exe x %MARIADB_FILENAME%.zip
+    7zr.exe x %MARIADB_FILENAME%.zip
     pushd %MARIADB_FILENAME%
     echo Creating Database
     @call bin\mysql_install_db.exe

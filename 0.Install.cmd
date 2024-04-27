@@ -10,6 +10,7 @@ echo.
 PAUSE
 exit
 ) else (
+@CALL 9.Download7Zip
 @CALL 9.DownloadHeidiSQL
 @CALL 9.DownloadMariaDB
 @CALL 9.DownloadUpdateServerFiles
@@ -28,7 +29,7 @@ echo.
 echo.
 echo      We are waiting for you to accept that prompt before continuing install.
 echo        Your database will not start until you accept the firewall rules.
-echo             YOUR DATABASE MUST BE STARTED TO INSTALL QBCORE
+echo             YOUR DATABASE MUST BE STARTED TO INSTALL MOST FRAMEWORKS!!
 echo.
 echo.
 echo.
@@ -52,7 +53,7 @@ cls
 echo.
 echo.
 echo.
-echo           Assisted Installs Complete, you are on your own from here.
+echo         Server install complete, use the wizard to complete your framework install.
 echo.
 echo           
 echo.
