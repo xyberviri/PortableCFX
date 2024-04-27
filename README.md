@@ -44,3 +44,8 @@ example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox
 #### 9. Download7Zip.cmd, DownloadHeidiSQL.cmd, DownloadMariaDB.cmd, DownloadUpdateServerFiles.cmd
 - **Purpose:** Downloads necessary tools and updates for the development environment.
 - **Usage:** Execute these files to acquire or update 7Zip, HeidiSQL, MariaDB, or server files as needed.
+
+### Troubleshooting
+- **Common Issues:** Make sure to start your database before starting fivem when returning to your development server.
+- **Custom Recipes:** When using a custom recipe, always use the raw path. Example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox.yaml`
+- **Further Assistance:** Submit a issue if the problem is related to the scripts otherwise contact the framework maintainer.
