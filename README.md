@@ -1,5 +1,5 @@
 # PortableCFX
-PortableCFX provides a suite of batch files to streamline the development and management of FiveM/RedM scripts through a portable cFX server environment.
+PortableCFX provides a suite of batch files to streamline the setup of a local dev server. This is a "portable" server, as in nothing is installed not even the database and you can just delete the folder this lives in, this is not intended for hosting a live game server or really for usage outside of spinning up a machine on your dev computer and then connecting locally. If you use this for live servers to play on and stuff doesnt work i cant really help you, It may or may not work for that purpose. 
 
 Download the project and run `0.Install.cmd` to set everything up.
 
@@ -9,8 +9,7 @@ example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox
 
 ## PortableCFX Batch File Documentation
 #### 0.Install.cmd
-- Only run once, delete all folders to perform a "clean" reinstall of everything.
-- Next time Start the database, Star fivem, open txadmin and connect to fivem.
+- run once, delete all folders to perform a "clean" reinstall of everything.
 
 #### 1.StartDatabase.cmd
 - Run to start the MariaDB database.
@@ -37,6 +36,9 @@ example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox
 - These all download the required tools, the server files are separete from the data files and can be used to update the fxserver. 
 
 ### Troubleshooting
-- **Common Issues:** Make sure to start your database before starting fivem when returning to your development server.
-- **Custom Recipes:** When using a custom recipe from github, always use the raw path.
-- **Further Assistance:** Submit a issue if the problem is related to the scripts otherwise submit an issue or reach out on discord. 
+- Make sure to start your database before starting fivem when returning to your development server.
+- When using a custom recipe from github, always use the raw path.
+- Submit a issue if the problem is related to the scripts otherwise submit an issue or reach out on discord.
+- open up and forward port `30120` to `30120` on your computer if you have someone else connect from outside of your network.
+- make sure you have a firewall rule for `30120` which you should have accepted during setup.
+- same goes for port `3306` for your local database server
