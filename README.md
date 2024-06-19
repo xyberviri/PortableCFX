@@ -41,4 +41,4 @@ example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox
 - Submit a issue if the problem is related to the scripts otherwise submit an issue or reach out on discord.
 - open up and forward port `30120` to `30120` on your computer if you have someone else connect from outside of your network.
 - make sure you have a firewall rule for `30120` which you should have accepted during setup.
-- same goes for port `3306` for your local database server
+- same goes for port `3306` for your local database server, but DO NOT FORWARD THIS PORT FROM YOUR FIREWALL
