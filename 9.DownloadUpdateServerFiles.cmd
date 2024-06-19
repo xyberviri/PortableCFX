@@ -1,9 +1,11 @@
 @ECHO OFF
-
-
-
-
 SETLOCAL EnableExtensions
+
+
+if not exist 7zr.exe (@CALL 9.Download7Zip)
+
+
+
 set EXE=FXServer.exe
 FOR /F %%x IN ('tasklist /NH /FI "IMAGENAME eq %EXE%"') DO IF NOT %%x == %EXE% (
 

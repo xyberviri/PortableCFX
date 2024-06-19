@@ -10,9 +10,9 @@ echo.
 PAUSE
 exit
 ) else (
-@CALL 9.Download7Zip
 @CALL 9.DownloadHeidiSQL
 @CALL 9.DownloadMariaDB
+@CALL 9.Download7Zip
 @CALL 9.DownloadUpdateServerFiles
 echo.
 echo.
@@ -55,7 +55,9 @@ echo.
 echo.
 echo         Server install complete, use the wizard to complete your framework install.
 echo.
-echo           
+echo         To Shutdown Portable CFX:
+echo         Launch TX Admin with "4.Open_txAdmin", then choose shutdown your cfx server
+echo         Shutdown your MySQL databse with "5.Shutdown_Database"  
 echo.
 echo.
 echo.
