@@ -1,6 +1,8 @@
 # PortableCFX
 PortableCFX provides a suite of batch files to streamline the setup of a local dev server. This is a "portable" server, as in nothing is installed not even the database and you can just delete the folder this lives in, this is not intended for hosting a live game server or really for usage outside of spinning up a machine on your dev computer and then connecting locally. If you use this for live servers to play on and stuff doesnt work i cant really help you, It may or may not work for that purpose. 
 
+It can be made "really" portable by install this on a thumb drive and making sure to maintain the drive letter since file paths are hard coded in a lot of assets outside of my control
+
 Download the project and run `0.Install.cmd` to set everything up.
 
 When using a custom recipe make sure to use the raw path.
