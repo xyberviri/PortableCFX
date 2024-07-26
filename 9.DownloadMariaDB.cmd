@@ -1,6 +1,6 @@
 @ECHO OFF
-set MARIADB_URL=https://archive.mariadb.org/mariadb-10.4.30/winx64-packages/mariadb-10.4.30-winx64.zip
-set MARIADB_FILENAME=mariadb-10.4.30-winx64
+set MARIADB_URL=https://archive.mariadb.org/mariadb-11.4.2/winx64-packages/mariadb-11.4.2-winx64.zip
+set MARIADB_FILENAME=mariadb-11.4.2-winx64
 
 if not exist %MARIADB_FILENAME% (
     echo "downloading %MARIADB_FILENAME%"
