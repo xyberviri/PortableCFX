@@ -1,2 +1,2 @@
-pushd HeidiSQL_12.5_64_Portable
+pushd HeidiSQL
 start heidisql.exe
