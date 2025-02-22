@@ -20,7 +20,7 @@ exit
 @CALL 9.Download7Zip
 @CALL 9.DownloadUpdateServerFiles
 @CALL 1.StartDatabase
-start "" "server_files/server/FXServer.exe"
+@CALL 2.StartFiveM
 echo.
 echo.
 echo.
