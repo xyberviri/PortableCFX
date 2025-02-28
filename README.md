@@ -45,3 +45,4 @@ example: `https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/main/qbox
 - open up and forward port `30120` to `30120` on your computer if you have someone else connect from outside of your network.
 - make sure you have a firewall rule for `30120` which you should have accepted during setup.
 - same goes for port `3306` for your local database server, DO NOT FORWARD THIS PORT FROM YOUR FIREWALL
+- Here is a guide for FiveM/RedM hosting [https://redm.munafio.com/blog/fivem-redm-hosting-port-forwarding](https://redm.munafio.com/blog/fivem-redm-hosting-port-forwarding)
